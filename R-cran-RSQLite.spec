@@ -2,12 +2,12 @@
 %define		modulename	RSQLite
 Summary:	SQLite interface for R
 Name:		R-cran-%{modulename}
-Version:	0.11.2
+Version:	0.11.4
 Release:	1
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	102fbed07dc322e664dba13a5d694eb6
+# Source0-md5:	c2a1a8fca2146a910e9e13879a88cbc9
 BuildRequires:	R >= 2.8.1
 BuildRequires:	R-cran-DBI
 BuildRequires:	sqlite3-devel
